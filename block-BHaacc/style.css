@@ -1,0 +1,50 @@
+body{
+    line-height: 1.5;
+    font-size: 24px;
+    font-family: "Open Sans",sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.section1{
+    background: linear-gradient(to right, rgb(61, 177, 231) 60%,rgb(29, 115, 30)), url(./assets/home-bg.jpg) 50% 50% no-repeat;
+    background-size: contain;
+    height: 600px;
+}
+.header1{
+    background-size: cover;
+    padding: 16px 64px;
+    align-items: flex-start;
+}
+.logo{
+    font-size: 32px;
+}
+.header1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.margin{
+    margin: 0 24px;
+}
+.nav1,
+.nav2{
+    margin: 0 32px;
+}
+
+
+.red{
+    padding: 16px;
+    background-color: red;
+    border-radius: 40px;
+}
