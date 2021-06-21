@@ -66,6 +66,10 @@ a{
     font-size: 16px;
     border-radius: 30px;
     text-align: center;
+    font-weight: 400;
+    box-shadow: none;
+    outline: 0;
+    border: 0;
 }
 .btn1{
     background-color: red;
@@ -274,4 +278,25 @@ progress::-webkit-progress-value {
 }
 .flex-23{
     flex: 0 1 23%;
+}
+
+.section4{
+    background: linear-gradient(to right,rgba(19,120,228,0.7), rgba(126,243,102,0.7))
+}
+.section4 .heading1{
+    color: white;
+}
+.form-control{
+    color: var(--text);
+    padding: 16px 12px;
+    margin-top: 16px;
+    width: 100%;
+    display: block;
+    background-color: white;
+    border: 0;
+    border-radius: 8px;
+}
+
+.section4 .btn{
+    margin-top: 32px;
 }
