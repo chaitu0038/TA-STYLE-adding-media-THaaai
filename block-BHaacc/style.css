@@ -62,7 +62,7 @@ a{
 }
 .btn{
     color: white;
-    padding: 12px 24px;
+    padding: 16px 24px;
     font-size: 16px;
     border-radius: 30px;
     text-align: center;
@@ -127,6 +127,9 @@ body{
     width: 100%;
     height: auto;
 }
+.align-start{
+    align-items: flex-start;
+}
 
 
 
@@ -167,6 +170,9 @@ body{
 }
 .box3{
     flex:0 1 60%;
+}
+.box4{
+    flex:0 1 20%;
 }
 .box2 img{
     height: auto;
@@ -295,8 +301,39 @@ progress::-webkit-progress-value {
     background-color: white;
     border: 0;
     border-radius: 8px;
+    font-family: "Roboto",sans-serif;
 }
 
 .section4 .btn{
     margin-top: 32px;
+}
+
+.iframe1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+
+
+.footer{
+    background: linear-gradient(to right,#424242,#010101);
+    color: whitesmoke;
+    font-size: 12px;
+}
+.footer h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 16px;
+}
+.footer hr{
+    margin-top: 32px;
+    border: 0;
+    border-top: 1px solid var(--bg);
+}
+
+.sec2{
+    padding: 32px 0;
+    margin: 32px;
 }
